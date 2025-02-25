@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 
 class AnimationUtils {
-  static const int transitionSpeed = 500; //ms
+  static const int transitionSpeed = 500; // in milliseconds
 
-  ////
   /// Slide given screen from bottom to top
-  ///
   static Route<T> createBottomToTopRoute<T>(Widget screen) {
-    const begin = Offset(0.0, 0.0);         //  TODO
-    const end = Offset(0.0, 0.0);           //  TODO
+    const begin = Offset(0.0, 1.0); // Start off-screen (bottom)
+    const end = Offset.zero;        // End at the original position (on-screen)
     return _createAnimatedRoute(screen, begin, end);
   }
 
