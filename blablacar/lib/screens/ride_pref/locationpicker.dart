@@ -24,7 +24,7 @@ class _LocationPickerState extends State<LocationPicker> {
       "Berlin, Germany",
       "Madrid, Spain",
       "London, UK"
-      // Add more locations as needed
+      
     ];
   }
 
