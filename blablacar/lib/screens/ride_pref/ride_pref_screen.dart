@@ -4,7 +4,6 @@ import '../../model/ride_pref/ride_pref.dart';
 import '../../service/ride_prefs_service.dart';
 import '../../theme/theme.dart';
  
-import 'widgets/ride_pref_form.dart';
 import 'widgets/ride_pref_history_tile.dart';
 
 const String blablaHomeImagePath = 'assets/images/blabla_home.png';
@@ -60,7 +59,7 @@ class _RidePrefScreenState extends State<RidePrefScreen> {
 
 
                   // 2.1 Display the Form to input the ride preferences
-                  RidePrefForm(initRidePref: RidePrefService.currentRidePref,),
+                  ridePrefForm(initRidePref: RidePrefService.currentRidePref,),
                   SizedBox(height: BlaSpacings.m),
 
 
@@ -88,6 +87,8 @@ class _RidePrefScreenState extends State<RidePrefScreen> {
       ],
     );
   }
+  
+  ridePrefForm({RidePref? initRidePref}) {}
 }
 
 class BlaBackground extends StatelessWidget {
