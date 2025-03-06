@@ -4,13 +4,13 @@ import '../ride/locations.dart';
 /// This model describes a ride preference.
 /// A ride preference consists of the selection of a departure + arrival + a date and a number of passenger
 ///
-class RidePreference {
+class RidePref {
   final Location departure;
   final DateTime departureDate;
   final Location arrival;
   final int requestedSeats;
 
-  const RidePreference(
+  const RidePref(
       {required this.departure,
       required this.departureDate,
       required this.arrival,

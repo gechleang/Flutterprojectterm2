@@ -1,8 +1,8 @@
 
-import 'package:blablacar/model/ride/locations.dart';
 
 import '../../utils/date_time_util.dart';
 import '../user/user.dart';
+import 'locations.dart';
 
 enum RideStatus {
   created,

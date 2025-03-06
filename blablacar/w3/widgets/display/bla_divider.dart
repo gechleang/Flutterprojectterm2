@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
 
-import '../../theme/theme.dart';
+import 'package:blablacar/theme/theme.dart';
+import 'package:flutter/material.dart';
 
 class BlaDivider extends StatelessWidget {
   const BlaDivider({super.key});
