@@ -1,7 +1,7 @@
 import 'package:blablacar/model/ride/locations.dart';
 import 'package:flutter/material.dart';
 
-import '../../service/locations_service.dart';
+import 'package:blablacar/service/locations_service.dart';
 import '../../theme/theme.dart';
 
 ///
